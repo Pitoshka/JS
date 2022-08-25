@@ -12,7 +12,7 @@ let arr2 = ["Dima", "Ivan", "Kate","Nikita"];
 //1
 let difference = arr1.filter(x => !arr2.includes(x));
 console.log(difference);
-
+ 
 //2
 const diffArray = (arr1, arr2) => { //indexOf return -1 if value not exist
     const newArr = [];
