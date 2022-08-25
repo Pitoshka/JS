@@ -24,6 +24,7 @@ const diffArray = (arr1, arr2) => { //indexOf return -1 if value not exist
     return newArr;
 }
 console.log(diffArray(arr1,arr2));
+ 
 
 //3 
 let collection1 = new Set(arr1);
